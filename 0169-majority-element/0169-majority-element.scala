@@ -2,20 +2,36 @@ import scala.collection.mutable
 
 object Solution {
     def majorityElement(nums: Array[Int]): Int = {
+    var candidate = -1
+    var counter = 0
 
-    var hashMap = new mutable.HashMap[Int, Int]()
-    var found = false
-    var me = -1
-    for (i<-nums if !found){
-      val counter = hashMap.getOrElse(i,0) + 1
-      if (counter>nums.length/2){
-        found=true
-        me = i
-      }
-      hashMap.put(i, counter)
-      //println(hashMap)
+    for (i<-nums){
+    if (counter==0){
+      candidate=i
     }
 
-    me
+    if(i==candidate){
+        counter+=1
+    }
+    else{
+        counter-=1
+    }
+
+    }
+
+    counter=0
+    for (i<-nums){
+      if (i==candidate){
+        counter+=1
+      }
+    }
+
+    if(counter>nums.length/2){
+      candidate
+    }else{
+      -1
+    
+
   }
+    }
 }
