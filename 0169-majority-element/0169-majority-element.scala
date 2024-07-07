@@ -13,7 +13,7 @@ object Solution {
         me = i
       }
       hashMap.put(i, counter)
-      println(hashMap)
+      //println(hashMap)
     }
 
     me
