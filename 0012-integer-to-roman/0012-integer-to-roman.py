@@ -14,7 +14,7 @@ class Solution:
         while num>0:
             string, num = get_closest_value(num)
             output+=string
-            print(output, num)
+            #print(output, num)
         return output
 
         
