@@ -3,7 +3,7 @@ object Solution {
 
         def is_prefix(length:Int): Boolean = {
 
-        var prefix = strs(0).substring(0,length)
+        val prefix = strs(0).substring(0,length)
         strs.forall(_.startsWith(prefix))
 
         }
