@@ -5,22 +5,26 @@ class Solution(object):
         :rtype: str
         """
         
-        def is_common_prefix(prefix):
-            for word in strs:
-                if not word.startswith(prefix):
-                    return False
+        def is_prefix(length):
 
-            else:
-                return True
+            prefix = strs[0][:length]
+            return all([i.startswith(prefix) for i in strs])
         
-        longest_prefix = ""
+        start, end = 0, len(min(strs))
 
-        min_word = min(strs, key=len)
+        mid = (start+end)//2
 
-        for char in range(len(min_word),0,-1):
+        while start<=end:
+            if is_prefix(mid):
+                start = mid+1
+            else:
+                end = mid-1
+            mid = (start+end)//2
 
-            if is_common_prefix(min_word[:char]):
-                return min_word[:char]
-    
-        return ""
+        
+        return strs[0][:mid]
+
+            
+
+
 
