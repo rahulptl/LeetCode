@@ -14,6 +14,6 @@ class Solution:
                 rp-=1
             else:
                 lp+=1
-            print(max_vol, height[lp], height[rp])
+            #print(max_vol, height[lp], height[rp])
 
         return max_vol
