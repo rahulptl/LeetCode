@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/rahulptl/LeetCode/tree/master/0011-container-with-most-water) |
+| [0015-3sum](https://github.com/rahulptl/LeetCode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/rahulptl/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0045-jump-game-ii](https://github.com/rahulptl/LeetCode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/rahulptl/LeetCode/tree/master/0055-jump-game) |
@@ -21,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/rahulptl/LeetCode/tree/master/0011-container-with-most-water) |
+| [0015-3sum](https://github.com/rahulptl/LeetCode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/rahulptl/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0151-reverse-words-in-a-string](https://github.com/rahulptl/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/rahulptl/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -40,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/rahulptl/LeetCode/tree/master/0015-3sum) |
 | [0169-majority-element](https://github.com/rahulptl/LeetCode/tree/master/0169-majority-element) |
 | [0274-h-index](https://github.com/rahulptl/LeetCode/tree/master/0274-h-index) |
 ## Counting
