@@ -19,7 +19,7 @@ class Solution:
             else:
                 mapping[s[fp]] = fp
                 fp+=1
-            longest_substr = max(longest_substr, (fp-sp))
+                longest_substr = max(longest_substr, (fp-sp))
             #print(f"{sp=} {fp=} {mapping=} {longest_substr}")
 
 
