@@ -10,18 +10,13 @@ class Solution:
         mapping = {}
         print(len(s))
         while(fp<len(s)):
-            if s[fp] in mapping.keys():       
-                pointer_to_remove_till =    mapping[s[fp]]      
-                while sp<=pointer_to_remove_till:
-                    #print(f"{sp=}, popping {s[sp]}")
-                    mapping.pop(s[sp])
-                    sp+=1
+            if s[fp] in mapping.keys() and mapping[s[fp]]>=sp:       
+                sp = mapping[s[fp]]+1                
             else:
-                mapping[s[fp]] = fp
-                fp+=1
-                longest_substr = max(longest_substr, (fp-sp))
+                longest_substr = max(longest_substr, (fp-sp)+1)
             #print(f"{sp=} {fp=} {mapping=} {longest_substr}")
-
+            mapping[s[fp]] = fp    
+            fp+=1
 
         return longest_substr
 
