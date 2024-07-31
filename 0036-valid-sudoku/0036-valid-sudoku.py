@@ -8,7 +8,6 @@ class Solution:
         bsquare = [[] for _ in range(9)]
 
         valid = True
-        print(f"{rows=} {columns=}")
 
         for i in range(0,9):
             for j in range(0,9):
