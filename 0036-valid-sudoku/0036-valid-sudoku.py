@@ -17,7 +17,7 @@ class Solution:
                     columns[j].append(board[i][j])
                     square1, square2 = ((i)//3), ((j)//3)
                     bsquare[square1*3+square2].append(board[i][j])
-                    print(i,j, square1, square2, square1+square2)
+                    #print(i,j, square1, square2, square1+square2)
 
 
         for  i in range(0,9):
@@ -27,5 +27,5 @@ class Solution:
                 return False
             if len(set(bsquare[i])) < len(bsquare[i]):
                 return False
-        print(f"{rows=} {columns=} {bsquare=}")
+        #print(f"{rows=} {columns=} {bsquare=}")
         return True
