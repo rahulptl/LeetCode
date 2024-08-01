@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/rahulptl/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0036-valid-sudoku](https://github.com/rahulptl/LeetCode/tree/master/0036-valid-sudoku) |
 | [0045-jump-game-ii](https://github.com/rahulptl/LeetCode/tree/master/0045-jump-game-ii) |
+| [0054-spiral-matrix](https://github.com/rahulptl/LeetCode/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/rahulptl/LeetCode/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rahulptl/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/rahulptl/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -120,4 +121,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/rahulptl/LeetCode/tree/master/0036-valid-sudoku) |
+| [0054-spiral-matrix](https://github.com/rahulptl/LeetCode/tree/master/0054-spiral-matrix) |
+## Simulation
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/rahulptl/LeetCode/tree/master/0054-spiral-matrix) |
 <!---LeetCode Topics End-->
