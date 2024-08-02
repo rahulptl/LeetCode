@@ -20,4 +20,3 @@ class Solution:
                 matrix[i][lp], matrix[i][rp] = matrix[i][rp], matrix[i][lp]
                 lp+=1
                 rp-=1
-        print(matrix)
