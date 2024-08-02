@@ -20,5 +20,3 @@ class Solution:
             for j in range(len(matrix)):
                 matrix[j][i] = 0
             
-        print(matrix)
-            
