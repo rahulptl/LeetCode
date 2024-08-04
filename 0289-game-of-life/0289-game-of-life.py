@@ -55,9 +55,7 @@ class Solution:
         for i in range(nrows):
             for j in range(ncolumns):
                 val = calculate(i,j)
-                print(val)
                 new_board[i].append(val)
-                print(new_board)
             
         for i in range(nrows):
             for j in range(ncolumns):
