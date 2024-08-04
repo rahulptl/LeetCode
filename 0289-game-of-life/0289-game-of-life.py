@@ -36,7 +36,6 @@ class Solution:
             if j-1>=0:
                 status += board[i][j-1]
                 neighbours+=1
-            print(i,j , status)
             if board[i][j]==0 and status==3:
                 return 1
             else:
