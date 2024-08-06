@@ -22,7 +22,6 @@ class Solution:
                 (i+1,j-1),
                 (i,j-1)
             ]
-            print(pairs)
             for x,y in pairs:
                 if 0<=x<nrows and 0<=y<ncolumns:
                     if board[x][y]==2:
