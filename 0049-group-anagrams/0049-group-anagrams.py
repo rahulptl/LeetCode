@@ -14,6 +14,4 @@ class Solution:
                 output[a] = [i]
             else:
                 output[a].append(i)
-
-        print(output)
         return output.values()
